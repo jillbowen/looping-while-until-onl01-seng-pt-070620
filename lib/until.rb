@@ -3,4 +3,5 @@ def using_until (phrase="Wingardium Leviosa")
   until levitation_force == 10
     levitation_force += 1
     puts "#{phrase}"
+  end
 end
